@@ -1,0 +1,23 @@
+.header {
+  background-color: var(--background-color);
+  height: var(--height-header);
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.logo_text {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+  justify-content: right;
+  height: 100%;
+  align-items: center;
+}

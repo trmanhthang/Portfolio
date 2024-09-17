@@ -1,12 +1,19 @@
 import classNames from "classnames/bind";
 import style from "./Home.module.scss";
+import React from "react";
+import Introductory from "./sections/Introductory";
+import About from "./sections/About";
 
 const cx = classNames.bind(style);
 
-function Home() {
+const Home: React.FC = () => {
 
-    return(
-        <h3 className={cx("")}>Home Page</h3>
+    return (
+        <div className={cx("body")}>
+            <Introductory />
+
+            <About />
+        </div>
     )
 }
 

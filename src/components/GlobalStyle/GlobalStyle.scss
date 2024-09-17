@@ -4,7 +4,15 @@
 @import '@fontsource/roboto/700.css';
 
 :root {
+  --white-color: #fff;
+  --black-color: #000;
+  --background-color: #E0E1DD;
+  --text-color: #0D1B2A;
+  --primary-color: #415A77;
+  --second-color: #1B263B;
+  --third-color: #778DA9;
 
+  --height-header: 70px;
 }
 
 * {
@@ -22,4 +30,18 @@ body {
   font-size: 1.6rem;
   line-height: 1.5;
   text-rendering: optimizeSpeed;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
 }
